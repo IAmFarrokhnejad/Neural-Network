@@ -28,6 +28,7 @@ def init_params():
     b2 = np.random.randn(10, 1) * 0.01  # Small random values
     return W1, b1, W2, b2
 
+# Author: Morteza Farrokhnejad
 # Leaky ReLU activation function
 def leaky_ReLU(Z, alpha=0.01):
     return np.maximum(alpha * Z, Z)
